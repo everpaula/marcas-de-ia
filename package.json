@@ -1,0 +1,47 @@
+{
+  "name": "marcas-de-ia",
+  "version": "0.1.0",
+  "description": "Acha as marcas que deixam um texto em português com cara de IA: travessão, \"não é X, é Y\", vocabulário de IA, caso inventado e mais.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "marcas-de-ia": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pt-br",
+    "portugues",
+    "ia",
+    "texto",
+    "revisao",
+    "copywriting",
+    "lint",
+    "chatgpt",
+    "claude"
+  ],
+  "author": "Everton Paula",
+  "license": "MIT",
+  "homepage": "https://github.com/everpaula/marcas-de-ia#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everpaula/marcas-de-ia.git"
+  },
+  "bugs": "https://github.com/everpaula/marcas-de-ia/issues"
+}
